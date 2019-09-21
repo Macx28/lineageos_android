@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project path="packages/apps/FDroidPrivilegedExtension"
+		name="fdroid/privileged-extension.git" remote="gitlab"
+		revision="refs/tags/0.2.7" />
+	<project path="vendor/foss" name="vendor_foss"
+		remote="phh" revision="master" />
+</manifest>
