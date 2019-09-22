@@ -2,13 +2,13 @@
 <manifest>
 
 <project path="vendor/opengapps/build" name="opengapps/aosp_build" revision="master" remote="github" />
-<project path="vendor/opengapps/sources/all" name="opengapps/all" clone-depth="1" revision="master" remote="gitlab" />
+<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
 
 <!-- arm64 depends on arm -->
-<project path="vendor/opengapps/sources/arm" name="opengapps/arm" clone-depth="1" revision="master" remote="gitlab" />
-<project path="vendor/opengapps/sources/arm64" name="opengapps/arm64" clone-depth="1" revision="master" remote="gitlab" />
+<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
+<project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
 
-<project path="vendor/opengapps/sources/x86" name="opengapps/x86" clone-depth="1" revision="master" remote="gitlab" />
-<project path="vendor/opengapps/sources/x86_64" name="opengapps/x86_64" clone-depth="1" revision="master" remote="gitlab" />
+<project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="opengapps" />
+<project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="opengapps" />
 
 </manifest>
